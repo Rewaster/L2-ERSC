@@ -4,10 +4,10 @@ import io
 import string
 import shutil
 
-source_dir = "D:\\thesis\\asr-test\\"
-target_dir = "D:\\thesis\\t4\\" 
-ref_dir = "D:\\thesis\\corpus\\transcripts_test\\"
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="D:\\thesis\\asr_key\\asr-l2-e217c5216823.json"
+source_dir = ""
+target_dir = "" 
+ref_dir = ""
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=".json"
 
 # list of subdirectories containing .wav files and textgrids (assumes each speaker has his own folder)
 subfolders = next(os.walk(source_dir))[1]
