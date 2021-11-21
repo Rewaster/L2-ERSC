@@ -6,10 +6,10 @@ import pandas as pd
 import matplotlib.ticker as mtick
 
 # source directory for files to copy from (ending with 2 backslashes!)
-source_dir = "D:\\thesis\\t3\\"
+source_dir = ""
 
 # target directory for files to copy to (ending with 2 backslashes!)
-target_dir = "D:\\thesis\\t4\\"  
+target_dir = ""  
 
 # list of subdirectories containing .wav files and textgrids (assumes each speaker has his own folder)
 subfolders = next(os.walk(source_dir))[1]
